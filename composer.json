@@ -1,0 +1,26 @@
+{
+  "name": "grray/laravel-application-testing",
+  "type": "library",
+  "description": "Functional testing for laravel like \"interacting with your application\" in laravel 5.3",
+  "keywords": ["laravel", "testing", "functional testing"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Smirnov",
+      "email": "ggrraay@gmail.com"
+    }
+  ],
+  "support":{
+    "issues": "https://github.com/grray/laravel-application-testing/issues",
+    "source": "https://github.com/grray/laravel-application-testing"
+  },
+  "require": {
+    "php": ">=7.1.3",
+    "symfony/dom-crawler": "3.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelApplicationTesting\\": "."
+    }
+  }
+}
