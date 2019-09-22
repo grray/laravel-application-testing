@@ -7,7 +7,6 @@ use InvalidArgumentException;
 use Illuminate\Http\UploadedFile;
 use Symfony\Component\DomCrawler\Form;
 use Symfony\Component\DomCrawler\Crawler;
-use Illuminate\Foundation\Testing\HttpException;
 use LaravelApplicationTesting\Constraints\HasLink;
 use LaravelApplicationTesting\Constraints\HasText;
 use LaravelApplicationTesting\Constraints\HasValue;
